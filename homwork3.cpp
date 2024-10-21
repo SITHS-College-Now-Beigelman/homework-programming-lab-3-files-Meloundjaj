@@ -14,7 +14,7 @@ int main()
     outFile.open("outdata.txt");
     
     int startAmount;
-    string typeOf;
+    char typeOf;
     double transactionsAmount = 0;
     int transMoney;
     /*string typeOf;*/
@@ -34,7 +34,7 @@ int main()
 
     
  
-    for (transactionsAmount = 0; transactionsAmount < 7; transactionsAmount++)
+    for (transactionsAmount = 0; transactionsAmount <=7; transactionsAmount++)
     {
       
         if ( typeOf == "W")
@@ -50,6 +50,8 @@ int main()
         }
 
         //cout << "theres" << (transactionsAmount - 1) << endl;
+
+
 
         return 0;
 
